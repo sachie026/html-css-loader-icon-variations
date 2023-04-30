@@ -281,6 +281,8 @@ h3 {
 
 /* Rotating loader animation code END */
 
+/* Scaling loader animation code START */
+
 .scaling-loaders {
   display: flex;
   justify-content: center;
@@ -349,3 +351,5 @@ h3 {
   animation-delay: 0.2s;
   border: 5px solid #eee;
 }
+
+/* Scaling loader animation code END */

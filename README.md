@@ -1,7 +1,10 @@
 Loader icon using vanilla HTML/CSS
 
-1. Loading dots
-2. Loading bars
+1. Loading text
+2. Loading dots
+3. Loading bars
+4. Rotating loader
+5. Scaling loader
 
 ### To run:
 
