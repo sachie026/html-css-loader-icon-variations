@@ -20,6 +20,8 @@ h3 {
   box-sizing: border-box;
 }
 
+/* Loading dots animation code START*/
+
 .loader {
   height: 20px;
   width: 250px;
@@ -69,11 +71,11 @@ h3 {
   animation-delay: 0s;
 }
 
+/* Loading dots animation code END */
+
+/* Loading text animation code START */
+
 .loader--text {
-  /* position: absolute;
-  top: 200%;
-  left: 0;
-  right: 0; */
   width: 4rem;
   margin: auto;
   margin-bottom: 100px;
@@ -116,6 +118,10 @@ h3 {
     content: "Loading...";
   }
 }
+
+/* Loading text animation code END */
+
+/* Loading bar animation code START */
 
 .container-bars {
   width: 100vw;
@@ -219,3 +225,5 @@ h3 {
     height: 100px;
   }
 }
+
+/* Loading bar animation code END */
