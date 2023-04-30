@@ -4,7 +4,7 @@
 
 h3 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: orangered;
 }
 
@@ -280,3 +280,72 @@ h3 {
 }
 
 /* Rotating loader animation code END */
+
+.scaling-loaders {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+}
+
+.scaling-loader {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid #aaa;
+  animation-name: scaling-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scaling-animation {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1.2);
+  }
+  30% {
+    transform: scale(1.3);
+  }
+  40% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(1.6);
+  }
+  70% {
+    transform: scale(1.7);
+  }
+  80% {
+    transform: scale(1.8);
+  }
+  90% {
+    transform: scale(1.9);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+
+.scaling-loader:first-child {
+  animation-delay: 0s;
+}
+
+.scaling-loader:nth-child(2) {
+  animation-delay: 0.1s;
+  border: 5px solid #ccc;
+}
+
+.scaling-loader:nth-child(3) {
+  animation-delay: 0.2s;
+  border: 5px solid #eee;
+}
