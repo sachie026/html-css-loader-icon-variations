@@ -9,13 +9,14 @@ h3 {
 }
 
 .container {
-  height: 25vh;
+  height: 30vh;
   width: 100vw;
   padding: 24px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 1px solid #ddd;
+  align-items: center;
   margin: 40px 0px;
   box-sizing: border-box;
 }
@@ -123,17 +124,6 @@ h3 {
 
 /* Loading bar animation code START */
 
-.container-bars {
-  width: 100vw;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid #ddd;
-  margin: 40px 0px;
-  box-sizing: border-box;
-}
-
 .loader-bars {
   height: 20px;
   width: 250px;
@@ -227,3 +217,66 @@ h3 {
 }
 
 /* Loading bar animation code END */
+
+/* Rotating loader animation code START */
+
+.height-40 {
+  height: 40vh;
+}
+
+.rotating-loaders {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+}
+
+.rotating-loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 5px solid #ddd;
+  position: absolute;
+  animation-name: rotate-border;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  border-top: 5px solid black;
+}
+
+@keyframes rotate-border {
+  0% {
+    transform: rotate(15deg);
+  }
+  10% {
+    transform: rotate(50deg);
+  }
+  20% {
+    transform: rotate(85deg);
+  }
+  30% {
+    transform: rotate(120deg);
+  }
+  40% {
+    transform: rotate(155deg);
+  }
+  50% {
+    transform: rotate(190deg);
+  }
+  60% {
+    transform: rotate(225deg);
+  }
+  70% {
+    transform: rotate(260deg);
+  }
+  80% {
+    transform: rotate(295deg);
+  }
+  90% {
+    transform: rotate(330deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Rotating loader animation code END */
