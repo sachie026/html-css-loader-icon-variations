@@ -5,6 +5,7 @@ Loader icon using vanilla HTML/CSS
 3. Loading bars
 4. Rotating loader
 5. Scaling loader
+6. Diagonal loader
 
 ### To run:
 
